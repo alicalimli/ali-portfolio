@@ -1,0 +1,22 @@
+.section-2{
+  height: 50vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:2rem;
+}
+
+.skills-container{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.skill-icon{
+  color:var(--primary-text-color-inverted);
+  font-size: 8rem;
+}
+
+.section-2 .illustration{
+  width: 50rem;
+}
