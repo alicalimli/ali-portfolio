@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="/src/styles/styles.css">
-  <title>Ali Calimli</title>
-</head>
-<body>
-  
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/styles/layouts/section-one.css" />
+    <title>Ali Calimli</title>
+  </head>
+  <body>
+    <main>
+      <section class="section section-1">
+        <figure class="name-intro">
+          <h2 class="hello">Hello, I'm</h2>
+          <h1 class="name"><mark>Ali </mark>Calimli</h1>
+          <p class="prof">A web developer based from Turkey.</p>
+
+          <div class="btns-container">
+            <button class="hire-me">hire me <span>&downarrow;</span></button>
+            
+            <div class="social-btns">
+              <a href="https://twitter.com/alicalimli_dev" target="_blank"  class="social-btn twitter">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+
+              <a href="https://github.com/alicalimli" target="_blank" class="social-btn github">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+
+              <a href="https://www.linkedin.com/in/ali-calimli-77777922b/" target="_blank" class="social-btn linkedin">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </figure>
+        <figure class="img-container">
+          <img class="my-img" src="/src/images/my-profile.png" alt="image of ali"/>
+        </figure>
+      </section>
+    </main>
+  </body>
 </html>
