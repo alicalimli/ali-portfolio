@@ -6,6 +6,8 @@
   justify-content: space-between;
 }
 
+/******* Name introduction *******/
+
 .name-intro {
   color: white;
   display: flex;
@@ -31,6 +33,8 @@
   margin-bottom: 1.5rem;
   font-size: 2.4rem;
 }
+
+/******* Hire me button *******/
 
 .hire-me {
   border: 1px solid #3bc9db;
@@ -60,6 +64,8 @@
   display: flex;
   gap: 2rem;
 }
+
+/******* Social Media Buttons *******/
 
 .social-btns {
   display: flex;
