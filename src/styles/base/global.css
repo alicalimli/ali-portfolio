@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: var(--primary-bg-color);
 }
 
 html {
