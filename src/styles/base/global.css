@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 
 html {
@@ -23,6 +23,7 @@ html {
 }
 
 .section-title{
-  font-size: 4.8rem;
+  font-size: 3.8rem;
+  font-weight: 500;
   color:var(--primary-accent-color);
 }
