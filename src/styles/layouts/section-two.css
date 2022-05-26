@@ -1,8 +1,5 @@
 .section-2{
   height: 50vh;
-  display:flex;
-  flex-direction: column;
-  gap:1rem;
 }
 
 .about-me-container{
