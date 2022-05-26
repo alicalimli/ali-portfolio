@@ -12,6 +12,7 @@
   /* Text Colors */
   --primary-text-color: white;
   --primary-text-color-inverted: #111;
+  --secondary-text-color-inverted: #222;
   --footer-text-color: #343a40;
 
   /* Accent Colors */
@@ -29,6 +30,7 @@
   /* Text Colors */
   --primary-text-color: #111;
   --primary-text-color-inverted: white;
+  --secondary-text-color-inverted: #e6e6e6;
   --footer-text-color: #adb5bd;
 
   /* Accent Colors */
