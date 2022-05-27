@@ -9,7 +9,7 @@
 
 .name-intro {
   color: var(--primary-text-color-inverted);
-  width: 40rem;
+  min-width: 40rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -25,7 +25,7 @@
   position: relative;
 }
 
-.name::after{
+.name::after {
   background-color: var(--primary-accent-color);
   content: "";
   width: 0;
@@ -33,10 +33,10 @@
   transition: var(--transition-four-ms);
   position: absolute;
   bottom: 10%;
-  left:0;
+  left: 0;
 }
 
-.name:hover::after{
+.name:hover::after {
   width: 90%;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .hire-me:hover {
-  color:white;
+  color: white;
   background-color: #22b8cf;
 }
 
@@ -91,16 +91,11 @@
   font-size: 2.5rem;
   transition: var(--transition-three-ms);
   padding: 0.5rem;
+  display: inline-block;
+  transform: translateY(0);
 }
 
-.twitter:hover {
-  color: #1a8cd8;
-}
-
-.github:hover {
-  color: #22b8cf;
-}
-
-.linkedin:hover {
-  color: #0a66c2;
+.social-btn:hover {
+  color: var(--primary-accent-color);
+  transform: translateY(-10%);
 }

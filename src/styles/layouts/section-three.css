@@ -1,107 +1,89 @@
-.section-3{
-  display:flex;
+.section-3 {
+  display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  gap:2rem;
+  gap: 2rem;
   padding-left: 20rem;
 }
 
-.featured-project-container{
+.featured-project-container {
   display: flex;
-  height: auto;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.webapp-img-wrapper{
-  width: 60rem;
+/******* Featured Project Image Sample *******/
+
+.webapp-img-wrapper {
+  width: 50rem;
   overflow: hidden;
   position: relative;
 }
 
-.webapp-link{
-  background:var(--primary-bg-color);
-  color:var(--primary-text-color-inverted);
-  display:flex;
+.webapp-link {
   align-items: center;
+  background: var(--primary-bg-color);
+  color: var(--primary-text-color-inverted);
+  display: flex;
   justify-content: center;
   width: 100%;
   height: 100%;
   transition: var(--transition-three-ms);
-  background-color: var(--primary-bg-color);
-  transform:scale(1.1);
   transform: scale(1.1);
   opacity: 0;
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
 }
 
-.webapp-link i{
+.webapp-link i {
   font-size: 5rem;
 }
 
-.webapp-img{
-  border-radius: 5px;
-  max-width: 100%;
-  transition: var(--transition-three-ms);
-  position: relative;
-}
-
-
-.webapp-img-wrapper:hover img{
-  transform:scale(1.05);
-}
-
-.webapp-img-wrapper:hover .webapp-link{
+.webapp-img-wrapper:hover .webapp-link {
   opacity: 0.7;
   transform: scale(1.01);
 }
 
-.webapp-info{
-  width: 60rem;
-  display:flex;
-  flex-direction: column;
-  gap:2rem;
+.webapp-img {
+  border-radius: 5px;
+  max-width: 100%;
+  transition: var(--transition-three-ms);
 }
 
+.webapp-img-wrapper:hover img {
+  transform: scale(1.05);
+}
 
-.webapp-info-container{
+/******* Featured Project Description *******/
+
+.webapp-info {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.webapp-info-container {
   background-color: var(--tertiary-bg-color);
   border-radius: 5px;
-  color:var(--primary-text-color-inverted);
-  display:flex;
+  display: flex;
   gap: 1rem;
-  font-size: 1.3rem;
   flex-direction: column;
-  padding:2rem 3rem;
+  padding: 2rem 3rem;
 }
 
-.project-title{
+.project-title {
   border-bottom: 1px solid var(--quartenary-bg-color);
-  color:var(--primary-text-color-inverted);
+  color: var(--primary-text-color-inverted);
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
 
-.project-info-container{
-  color:var(--primary-text-color-inverted);
-  display:flex;
+.project-info-container {
+  color: var(--primary-text-color-inverted);
+  display: flex;
   font-size: 1.6rem;
   flex-direction: column;
-  gap:1rem;
-}
-
-.other-webapp-img-wrapper{
-  width: 30rem;
-  overflow: hidden;
-  position: relative;
-}
-
-.other-projects-container{
-  margin-top: 5rem;
-}
-
-.other-projects-container .webapp-img-wrapper{
-  width: 40rem;
+  gap: 1rem;
 }
