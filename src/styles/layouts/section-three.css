@@ -55,7 +55,7 @@
 
 .webapp-img-wrapper:hover .webapp-link{
   opacity: 0.7;
-  transform: scale(1);
+  transform: scale(1.01);
 }
 
 .webapp-info{
