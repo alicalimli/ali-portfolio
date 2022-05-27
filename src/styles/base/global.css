@@ -30,7 +30,7 @@ a{
 .section-title{
   font-size: 3.8rem;
   font-weight: 500;
-  color: var(--primary-text-color-inverted);
+  color: var(--primary-accent-color);
 }
 
 .tooltip{
