@@ -30,6 +30,7 @@ a {
 .section-title {
   font-size: 3.8rem;
   font-weight: 500;
+  margin-bottom: 1.5rem;
   color: var(--primary-accent-color);
 }
 
