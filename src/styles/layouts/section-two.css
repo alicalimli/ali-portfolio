@@ -1,5 +1,5 @@
 .section-2 {
-  height: 70vh;
+  margin-bottom: 15rem;
 }
 
 .about-me-info {
@@ -9,8 +9,7 @@
 }
 
 .about-me-container {
-  margin-left: 5rem;
-  width: 80rem;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;

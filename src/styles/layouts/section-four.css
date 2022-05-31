@@ -1,10 +1,8 @@
 .section-4 {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
   gap: 2rem;
-  padding-left: 20rem;
 }
 
 .section-4 i {
