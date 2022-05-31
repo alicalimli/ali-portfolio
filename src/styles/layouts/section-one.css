@@ -1,6 +1,7 @@
 .section-1 {
   height: 100vh;
   display: flex;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
 }

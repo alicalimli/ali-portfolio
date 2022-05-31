@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+
+  .section {
+    padding: 3rem 10rem;
+  }
+
+  .img-container {
+  }
+
+  .sub-section {
+    padding: 3rem 15rem;
+  }
+
+  .my-img {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .section {
+    padding: 3rem 5rem;
+  }
+
+  .sub-section {
+    padding: 3rem 10rem;
+  }
+
+  .my-img {
+    width: 30rem;
+  }
+
+  .featured-project-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+
+  .section {
+    padding: 2rem;
+  }
+
+  .sub-section {
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .webapp-img-wrapper {
+    width: unset;
+  }
+
+  .webapp-info {
+    width: unset;
+  }
+
+  .sub-section {
+    padding: 3rem;
+  }
+}
