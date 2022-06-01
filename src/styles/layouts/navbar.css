@@ -1,0 +1,25 @@
+.nav-bar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 0 10px 20px rgba(30, 30, 30, 0.2);
+  z-index: 1;
+}
+
+.nav-links {
+  margin-left: auto;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.nav-link a {
+  transition: var(--transition-three-ms);
+  color: var(--primary-text-color-inverted);
+}
+
+.nav-link a:hover {
+  color: var(--primary-accent-color);
+}

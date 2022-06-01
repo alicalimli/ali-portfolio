@@ -21,13 +21,21 @@
     <link rel="stylesheet" href="/src/styles/layouts/section-two.css" />
     <link rel="stylesheet" href="/src/styles/layouts/section-three.css" />
     <link rel="stylesheet" href="/src/styles/layouts/section-four.css" />
+    <link rel="stylesheet" href="/src/styles/layouts/navbar.css" />
     <link rel="stylesheet" href="/src/styles/base/queries.css" />
 
     <title>Ali Calimli</title>
   </head>
   <body class="darkmode">
     <main>
-      <section class="section section-1">
+      <header class="section nav-bar">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="#about-section">About</a></li>
+          <li class="nav-link"><a href="#projects-section">Projects</a></li>
+          <li class="nav-link"><a href="#contact-section">Contact</a></li>
+        </ul>
+      </header>
+      <section id="intro-section" class="section section-1">
         <figure class="name-intro">
           <h2 class="hello">Hello, I'm</h2>
           <h1 class="name"><mark>Ali </mark>Calimli</h1>
@@ -80,7 +88,7 @@
         </figure>
       </section>
 
-      <section class="sub-section section-2">
+      <section id="about-section" class="sub-section section-2">
         <article class="about-me-container">
           <h3 class="section-title">About me</h3>
           <div class="about-me-info">
@@ -91,9 +99,12 @@
             </p>
             <p class="secondary-txt about-me-txt">
               I started learning web development in January and have been
-              consistently learning since then. During my 5-month journey, I've
-              been able to learn technologies such as HTML, CSS, and JavaScript,
-              and I've been able to
+              consistently learning since then. During my 5-month journey,
+              <mark
+                >I've been able to learn technologies such as HTML, CSS, and
+                JavaScript</mark
+              >
+              , and I've been able to
               <a class="line-effect" href="#projects-section">build projects</a>
               using them.
             </p>
