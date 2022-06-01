@@ -70,7 +70,7 @@
 }
 
 .hire-me:hover span {
-  transform: translateY(15%);
+  transform: translateX(15%);
 }
 
 .btns-container {
