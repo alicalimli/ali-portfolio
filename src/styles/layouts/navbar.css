@@ -1,6 +1,5 @@
 .nav-bar {
   display: flex;
-  position: fixed;
   width: 100%;
   background-color: var(--secondary-bg-color);
   z-index: 1;
