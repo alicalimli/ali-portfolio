@@ -3,7 +3,6 @@
   position: fixed;
   width: 100%;
   background-color: var(--secondary-bg-color);
-  box-shadow: 0 0 10px 20px rgba(30, 30, 30, 0.2);
   z-index: 1;
 }
 
